@@ -39,9 +39,9 @@ export class Mouse extends Produto {
 
     public visualizar(): void {
         super.visualizar()
-        console.log("DPI Máximo: \t\t" + this._dpi);
-        console.log("Taxa de Atualização: \t\t" + this._attRate +"Hz");
-        console.log("Botões: \t\t" + this._buttons + "%");
+        console.log("DPI Máximo: " + this._dpi);
+        console.log("Taxa de Atualização: " + this._attRate +"Hz");
+        console.log("Botões: " + this._buttons + "%");
 
     }
 }

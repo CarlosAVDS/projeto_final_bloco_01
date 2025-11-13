@@ -11,5 +11,5 @@ export interface ProdutoRepository {
 	// Métodos Bancários
 	vender(numero: number, valor: number): void;
 	receber(numero: number, valor: number): void;
-	
+	sorte():void
 }

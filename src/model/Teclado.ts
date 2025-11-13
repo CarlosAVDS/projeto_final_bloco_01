@@ -60,11 +60,11 @@ export class Teclado extends Produto {
 
     public visualizar(): void {
         super.visualizar()
-        console.log("Tipo de Teclado: \t\t" + this._type);
-        if (this.typeSwitch != '') { console.log("Tipo de Switch: \t\t" + this._typeSwitch); }
-        console.log("Iluminação: \t\t" + this._iluminacao);
-        console.log("Tipo de Teclas: \t\t" + this._keyCaps);
-        console.log("Tamanho: \t\t" + this._tamanho + "%");
+        console.log("Tipo de Teclado: " + this._type);
+        if (this.typeSwitch != '') { console.log("Tipo de Switch: " + this._typeSwitch); }
+        console.log("Iluminação: " + this._iluminacao);
+        console.log("Tipo de Teclas: " + this._keyCaps);
+        console.log("Tamanho: " + this._tamanho + "%");
 
     }
 }

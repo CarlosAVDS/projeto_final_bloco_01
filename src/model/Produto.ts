@@ -65,11 +65,13 @@ export abstract class Produto {
         this._qtdEstoque = qtdEstoque;
     }
 
-    public vender(qtd: number) {
+    public vender(qtd: number) :boolean{
         if (this.qtdEstoque < qtd) {
             console.log("Quantidade insuficiente para a venda")
+            return false
         } else {
             this._qtdEstoque = this.qtdEstoque - qtd
+            return true
         }
     }
 
